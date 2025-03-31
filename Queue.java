@@ -1,7 +1,7 @@
 import java.util.*;
 
 class MyQueue<T>{
-    private Object[] arr;
+    public Object[] arr;
     int front,rear;
     int curr_size;
     //Constructor to initialize a queue
